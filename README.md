@@ -1,2 +1,2 @@
-# HearMeCode
-Practice work for Hear Me Code will go here.
+# PracticePython
+Practice work for PracticePython.org will go here.
