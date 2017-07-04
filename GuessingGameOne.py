@@ -10,14 +10,16 @@ g = 0
 import random
 r = random.randint(1,10)
 
-while c != "exit":
 
+while c != "exit":
   u = int(raw_input("Pick a number between 1 and 10. I'll tell you if it matches mine!"))
   
   g += 1
   
   if u == r:
     print "Congratulations, you got it exactly right!"
+    print "You made {} guesses!".format(g)
+    break
   elif u > r:
     print "You guessed too high."
   elif r > u:
