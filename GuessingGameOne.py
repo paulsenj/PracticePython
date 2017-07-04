@@ -28,5 +28,5 @@ while c != "exit":
   c = raw_input("Press any key to continue, or type exit to quit.") 
 
 if c == "exit":
-  print "You made {} guesses!".format(g)
+  break
 
